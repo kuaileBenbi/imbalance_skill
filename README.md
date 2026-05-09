@@ -2,10 +2,6 @@
 
 一个 Claude Code skill，专门用于诊断和解决深度学习中的正负样本/类别不均衡问题。
 
-## 这是什么
-
-这不是一个 Python 库，而是一个 **Claude Code Agent 的领域技能**。安装后，你的 Claude Code 会获得正负样本不均衡方面的专家能力：
-
 - 自动诊断你的数据不均衡程度
 - 根据任务类型和不均衡程度推荐最佳解决方案组合
 - 直接在代码中实现对应的 Loss 函数、注意力模块、采样策略
@@ -24,7 +20,7 @@
 ### 方式一：直接安装到项目（推荐）
 
 ```bash
-# 克隆到你的项目目录下
+# 克隆到项目目录下
 cd your-project
 git clone https://github.com/your-username/imbalance-skill.git .claude/skills/imbalance
 
