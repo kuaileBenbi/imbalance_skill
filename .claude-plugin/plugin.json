@@ -1,0 +1,6 @@
+{
+  "name": "imbalance-skill",
+  "version": "0.1.0",
+  "description": "Claude Code skill for solving positive/negative sample imbalance in deep learning tasks",
+  "skills": ["skills/"]
+}
